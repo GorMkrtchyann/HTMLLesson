@@ -353,7 +353,7 @@ body {
   }
 }
 
-@me {}@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .mobile-menu {
     display: block;
   }
@@ -500,7 +500,7 @@ body {
   }
   .page-main-title .page-main-text {
     width: 300px;
-    margin-top: 20px;
+    margin-top: -30px;
     -webkit-animation: htmlm 2s forwards;
             animation: htmlm 2s forwards;
   }
@@ -557,6 +557,20 @@ body {
   }
   .content .html-back .code-doc p {
     font-size: 12px;
+  }
+  .page-main-title .page-main-text {
+    width: 300px;
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .page-main-title .page-main-text {
+    width: 300px;
+    margin-top: -40px;
+  }
+  .page-main-title .page-main-text h1 {
+    font-size: 70px;
   }
 }
 /*# sourceMappingURL=htmlstyle.css.map */
